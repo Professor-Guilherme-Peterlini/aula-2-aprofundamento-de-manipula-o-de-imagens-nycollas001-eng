@@ -57,7 +57,7 @@ img_final = img_bordas.point(lambda x: 255 if x > limiar else 0)
 
 ## Bônus (1,0 ponto extra)
 Proponha uma modificação no pipeline de processamento que poderia melhorar os resultados em imagens com baixo contraste.
-
 ---
-**Valor Total**: 15 pontos + 1 ponto extra
-**Nota Mínima**: 9 pontos
+**Autor**: [Guilherme Tavares]  
+**Data**: [24/01/2025]  
+**Versão**: 1.1
