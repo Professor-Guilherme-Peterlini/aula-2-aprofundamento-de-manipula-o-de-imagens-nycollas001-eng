@@ -103,6 +103,6 @@ def pipeline_processamento(imagem, limiar=128):
 * Análise dos resultados
 
 ---
-**Autor**: [Nome do Autor]  
+**Autor**: [Guilherme Tavares]  
 **Data**: [24/01/2025]  
 **Versão**: 1.1
