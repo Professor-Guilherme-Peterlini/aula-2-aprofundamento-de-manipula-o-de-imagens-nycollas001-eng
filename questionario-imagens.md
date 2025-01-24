@@ -10,11 +10,16 @@
 ### Parte 1: Conceitos Básicos
 
 1. (2,0 pontos) Explique a diferença entre os métodos de redimensionamento de imagem:
-   * Nearest Neighbor
-   * Bilinear
-   * Bicubic
+   * Nearest Neighbor: pega o pixel mais próximo, sem suavização
+   * Bilinear: cria uma imagem mais suave, mas com possível desfoque
+   * Bicubic: faz uma imagem mais suave e nítida so mais lenta
    
 2. (1,5 pontos) Por que é importante fazer backup das imagens originais antes de aplicar transformações? Cite dois cenários onde isso é crítico.
+
+ R: Perda de Qualidade ao Redimensionar ou Comprimir: não fazendo o backup pode acabar Perdendo a Qualidade fazendo Muitas transformações como por exenplo redimensionamento ou compressão
+ podem degradar a qualidade da imagem se você não tiver a original, pode ser dificio recuperar os detalhes perdidos.
+
+ R: Erro na Transformação ou Edição: pode ocorrer um erro que distorce a imagem de maneira inesperada. Sem o backup você perderia o estado original da imagem e precisaria começar do zero ou tentar corrigir com base em uma versão já alterada.
 
 ### Parte 2: Escala de Cinza
 
@@ -23,6 +28,8 @@
    * Método por luminosidade (Y = 0.299R + 0.587G + 0.114B)
    
    Por que o segundo método é considerado mais preciso para a percepção humana?
+   
+   R: porque leva em consideração a forma como o olho vê as cores e a luminosidade, resultando em uma percepção mais realista
 
 4. (1,5 pontos) Em processamento de imagens, por que frequentemente convertemos uma imagem para escala de cinza antes de aplicar outros algoritmos?
 
